@@ -4,6 +4,7 @@ import Features from './components/features/Features';
 import About from './components/about/About';
 import aboutImage1 from './images/Frame 19.png';
 import aboutImage2 from './images/download.png';
+import Presentation from './components/presentation/Presentation';
 
 function App() {
    return (
@@ -15,6 +16,7 @@ function App() {
             title='Comes With All You Need For Daily Life'
             button='Get The App'
          />
+         <Presentation />
          <About
             image={aboutImage2}
             title='Download And Get The App Now'
