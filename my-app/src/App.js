@@ -5,6 +5,7 @@ import About from './components/about/About';
 import aboutImage1 from './images/Frame 19.png';
 import aboutImage2 from './images/download.png';
 import Presentation from './components/presentation/Presentation';
+import Contact from './components/contact/Contact';
 
 function App() {
    return (
@@ -22,6 +23,7 @@ function App() {
             title='Download And Get The App Now'
             button='Download'
          />
+         <Contact />
       </div>
    );
 }
